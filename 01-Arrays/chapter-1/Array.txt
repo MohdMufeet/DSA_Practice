@@ -1,0 +1,12 @@
+Q1: What is Traversing and Accessing?
+A1: Traversing means visiting every single element in a data structure one by one
+    (usually to print or process them). Accessing means directly retrieving or
+    modifying a specific element at a known location or index.
+
+ -----------------------------------   Tasks  --------------------------------------
+
+=> Make HTML page with basic array
+=> Traversing with loop
+=> Accessing elements
+=> Access element with text input and button
+=> Validation

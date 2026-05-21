@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array Traversing</title>
+  </head>
+  <body>
+    <input type="text" id="data" />
+    <button id="btn">Get Element</button>
+    <br />
+  </body>
+  <script>
+    // Make HTML page with basic array
+    const arr = [5, 2, 6, 3, 7, 8, 1];
+
+    // Traversing with loop
+    for (let i = 0; i < arr.length; i++) {
+      document.write(`Element at index ${i} is ${arr[i]} <br/>`);
+    }
+
+    // Accessing elements
+    let x = 2; // Accessing an element at a specific index
+    document.write(`Accessed element is ${arr[x]} <br/>`);
+
+    // Access element with text input and button
+    function getElement() {
+      const inputData = document.getElementById("data").value;
+      
+      // Validation
+      const index = parseInt(inputData, 10);
+      console.log(index);
+      
+      if (!isNaN(index) && index >= 0 && index < arr.length) {
+        alert(`Your Element is ${arr[index]}`);
+      } else {
+        alert("Please enter a valid array index number.");
+      }
+    }
+    
+    const Btn = document.getElementById("btn");
+    Btn.onclick = getElement;
+  </script>
+</html>

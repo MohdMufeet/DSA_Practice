@@ -1,0 +1,17 @@
+Q1: What is DSA?
+A1: DSA stands for Data Structures and Algorithms.
+    A Data Structure is a way of organizing and storing
+    data efficiently in a computer.
+    An Algorithm is a step-by-step procedure or set of rules
+    followed to solve a problem or perform a calculation
+    (such as organizing or searching through that data).
+
+
+
+Q2: What is linear and non-linear Data Structure?
+A2: In a linear data structure, data elements are arranged
+    sequentially or linearly, where each element is connected
+    to its previous and next element (Arrays, Linked Lists).
+    In a non-linear data structure, data elements are not arranged
+    in a sequence; they are attached hierarchically or interconnected
+    randomly (Trees, Graphs).
